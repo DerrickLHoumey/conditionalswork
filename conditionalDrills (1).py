@@ -44,7 +44,7 @@ else:
 seats = [1,1,0,1]
 if (seats[0:3] == 1):
     print("There are no available seats")
-if (seats[0:3] == 0):
+elif (seats[0:3] == 0):
     print("There are available seats")
 elif (seats[0] == 0):
     print("Seat 1 is open")
